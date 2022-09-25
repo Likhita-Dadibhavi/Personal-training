@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+body{
+    background-color:rgb(10, 10, 10) ;
+    background-size: cover;
+}
+
+/*ABOUT SECTION STARTS*/
+.header{ 
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight:bold;
+  font-size: 30px;
+  margin: 0;
+  display: fixed;
+}
+
+.para1{color :white;
+  padding: 0%;
+  margin: 0%;
+  font-size: 20px;
+  margin-top: 10%;
+  margin-left: 10%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+.center{ align-items: center;}
+
+.link button{
+    border: none;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size:18px;
+    background-color: #de1111;
+}
+
+
+
+/*ABOUT SECTION ENDS*/
+
+
+
+
+
+/*SIGNUP SECTION STARTS*/
+
+.signup-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    color: rgb(222, 213, 213);
+    max-width: 1200px;
+    margin-right: 80px;
+}
+
+.signup-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+    margin-right: 60px;
+}
+
+.signup-form p{
+    font-size: 20px;
+    margin: 15px 0;
+    margin-right: 80px;
+
+}
+
+.signup-form input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    max-width: 1200px;
+
+}
+
+.signup-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+    border:  0;
+    background-color: #cb370b;
+    max-width: 1200px;
+
+}
+/*SIGNUP SECTION ENDS*/
+
+/*PRICES AND PLAN SECTION STARTS*/
+.prices h1{ 
+
+    color:white;
+    text-align:left;
+    font-weight:bold;
+    font-size:65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.prices{
+    background-color: black;
+}
+.prices.h2{ color :white;
+    font-size: 30px;
+}
+.prices pre{
+    padding:0.2px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.prices li { 
+    font-family: sans-serif;
+    font-size: 20px;
+}
+/*prices and plan section ends*/
+/*classes section starts*/
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: none;
+  }
+  
+
+  
+  div.desc {
+    padding: 2px;
+    color: white;
+    text-align: center;
+    font-size:30px;
+    text-decoration: underline;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .heading{ 
+
+    color:white;
+    text-align:left;
+    font-weight:bolder;
+    font-size:65px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.vediolink button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size:20px;
+    background-color: #de1111;
+}
